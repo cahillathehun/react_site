@@ -1,4 +1,3 @@
-import Navbar from './navbar';
 
 function Poems() {
     return (

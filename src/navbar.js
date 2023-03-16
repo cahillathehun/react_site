@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Poems from "./Poems";
 const Navbar = () => {
     const github = "https://github.com/cahillathehun/";
     const linkedin = "https://ie.linkedin.com/in/alex-cahill"

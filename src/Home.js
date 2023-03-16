@@ -1,12 +1,6 @@
 
-
 const Home = () => {
-
-    const handleClick = () => {
-
-    }
     let today = new Date().toLocaleDateString('en-us', { weekday:"long"});
-
     return ( 
         <div className="Home">
             <h2>Homepage</h2>
@@ -20,15 +14,14 @@ const Home = () => {
                 </p>
                 <br/>
                 <p>
-                    You can get in contact with me using via the LinkedIn link in the top corner there.
+                    You can get in contact with me using via the LinkedIn link in the top right corner there.
                 </p>
                 <br/>
-                
                 <p>
-                    Plan is for the POEMS page to fetch a random poem and picture of the poet from some cloud storage and display on the page.
+                    The source code for this site is on my GitHub, also in the top right hand corner. Made using react and hosted on Firebase. App is redeployed every time there is a push to main or PR to main.
                 </p>
+                <br/>
         </div>
      );
 }
- 
 export default Home;

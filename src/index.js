@@ -8,7 +8,6 @@ import App from './App';
 //Firebase import and config START
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-
 const firebaseConfig = {
     apiKey: "AIzaSyCUZLabBYQ-B-D5fLH-JY7H7WgEt6RfbO8",
     authDomain: "react-site-ac.firebaseapp.com",
