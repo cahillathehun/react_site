@@ -7,6 +7,7 @@ import App from './App';
 
 //Firebase import and config START
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCUZLabBYQ-B-D5fLH-JY7H7WgEt6RfbO8",
@@ -18,6 +19,7 @@ const firebaseConfig = {
     measurementId: "G-SWDBEQYYGE"
 };
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 //Firebase import and config END
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
