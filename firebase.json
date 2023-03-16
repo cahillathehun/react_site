@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "alex-cahill",
+    "public": "src",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
