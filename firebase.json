@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "alex-cahill",
-    "public": "src",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
