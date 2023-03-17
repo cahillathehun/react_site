@@ -65,6 +65,9 @@ button:hover {
     background-color: #f2f2f2;
     color: #046e09;
 }
+button:active{
+    box-shadow: 2px 2px 5px #046e09;
+}
 img {
     max-width: 100%;
     height: 430px;
