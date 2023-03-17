@@ -6,8 +6,10 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Ahleks</h1>
             <div className="links">
+                {/* internal links */}
                 <Link to="/">HOME</Link>
                 <Link to="/poems">POEMS</Link>
+                {/* external links */}
                 <a href={github} target="_blank" rel="noreferrer">GITHUB</a>
                 <a href={linkedin} target="_blank" rel="noreferrer">LINKEDIN</a>
             </div>

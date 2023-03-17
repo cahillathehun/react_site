@@ -18,8 +18,8 @@ const firebaseConfig = {
     measurementId: "G-SWDBEQYYGE"
 };
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 //Firebase import and config END
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

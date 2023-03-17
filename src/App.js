@@ -7,8 +7,10 @@ function App() {
     return (
     <Router>
         <div className="App">
+            {/* call navbar component */}
             <Navbar/>
             <div className="content">
+                {/* do routing for internal links */}
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/poems" element={<Poems />}/>
