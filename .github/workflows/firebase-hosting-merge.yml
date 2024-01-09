@@ -10,8 +10,11 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - uses: actions/checkout@v2 # github actions mv machine checks out release that was just pushed
+      - uses: FirebaseExtended/action-hosting-deploy@v0 # run Firebase's deploy package(?).
+      # authorising and authentication with secrets mentioned below.
+      # deploys to site according to configs in ./firebase/firebase.json
+      # alex-cahill is configured as the deploy site there
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_SITE_AC }}'

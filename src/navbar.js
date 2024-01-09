@@ -9,6 +9,7 @@ const Navbar = () => {
                 {/* internal links */}
                 <Link to="/">HOME</Link>
                 <Link to="/poems">POEMS</Link>
+                <Link to="/stats">STATS</Link>
                 {/* external links */}
                 <a href={github} target="_blank" rel="noreferrer">GITHUB</a>
                 <a href={linkedin} target="_blank" rel="noreferrer">LINKEDIN</a>
@@ -16,5 +17,5 @@ const Navbar = () => {
         </nav>
      );
 }
- 
+
 export default Navbar;
