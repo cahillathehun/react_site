@@ -17,6 +17,8 @@ jobs:
         run: npx update-browserslist-db@latest
       - name: build lib
         run: npm run build
+        env:
+          CI: ""
       - uses: FirebaseExtended/action-hosting-deploy@v0 # run Firebase's deploy package(?).
       # authorising and authentication with secrets mentioned below.
       # deploys to site according to configs in ./firebase/firebase.json
