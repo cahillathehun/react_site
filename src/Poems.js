@@ -39,9 +39,9 @@ function Poems() {
                 <p>You may get the same poem again after clicking as there are not many poems uploaded at the moment</p>
                 <button onClick={() => {getPoem()}}>Click for a poem</button><br/>
                 <div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg" alt="Portrait picture taken of William Butler Yeats taken by Geord Charles Beresford."/>
                 </div>
-                
+
                 <br/>
                 <div className="randomPoem">
                     {Parser(para)}
