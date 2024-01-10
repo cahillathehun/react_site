@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+build/asset-manifest.json
+build/index.html
+build/static/*
 
 # testing
 /coverage
