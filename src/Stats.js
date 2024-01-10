@@ -1,23 +1,5 @@
 import { useState } from "react";
 
-const {Storage} = require('@google-cloud/storage');
-
-const bucketName = 'latest-csv';
-const fileName = 'sample.csv';
-const destFileName = './mycsv.csv'
-
-async function downloadFile() {
-  const storage_client = new Storage({
-    projectId: 'react-site-project'
-  })
-  const options = {
-    destination: destFileName,
-  };
-await storage.bucket().file(fileName).download(options);
-
-console.log(`gs://${bucketName}/${fileName} downloaded to ${destFileName}.`);
-}
-
 function Stats() {
 
   downloadFile()
