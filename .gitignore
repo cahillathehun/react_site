@@ -7,6 +7,7 @@
 build/asset-manifest.json
 build/index.html
 build/static/*
+package-lock.json
 
 # testing
 /coverage
