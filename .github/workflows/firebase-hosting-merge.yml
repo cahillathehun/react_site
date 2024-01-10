@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 # github actions mv machine checks out release that was just pushed
-      - name: do install
+      - name: install dependencies
         run: npm install
+      - name: npx browser list update
+        run: npx update-browserslist-db@latest
       - name: build lib
         run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0 # run Firebase's deploy package(?).

@@ -9,7 +9,7 @@ function Stats() {
 
     <div className="Stats">
         <h2>STATS</h2>
-            <div className="poemContent">
+            <div className="statsContent">
                 <br/>
 
 
