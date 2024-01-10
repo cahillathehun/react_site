@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Stats() {
 
-  downloadFile()
+
 
 
     return (
