@@ -16,9 +16,6 @@ function Stats() {
                 <br/>
 
 
-                <p>Below is where graphs showing different stats about Entry Level jobs that require a certain number of years experience</p>
-
-
             </div>
     </div>
   );
