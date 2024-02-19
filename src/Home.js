@@ -1,12 +1,12 @@
 
 const Home = () => {
     let today = new Date().toLocaleDateString('en-us', { weekday:"long"});
-    return ( 
+    return (
         <div className="Home">
             <h2>Homepage</h2>
                 <br/>
                 <p>
-                    Welcome to my page on this fine {today} morning/afternoon/evening!
+                    Welcome to my page on this {today} morning/afternoon/evening!
                 </p>
                 <br/>
                 <p>

@@ -1,27 +1,11 @@
-import * as d3 from "d3";
 
-function getData() {
-  return d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv");
-}
-function Stats() {
-  var csv_file = getData()
-  console.log(csv_file);
-
-
+function App() {
     return (
+        <div className="App">
+          <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/451f01d0-c759-4464-867e-3832df464aac/page/tEnnC" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
-    <div className="Stats">
-        <h2>STATS</h2>
-            <div className="statsContent">
-                <br/>
-
-
-                <p>Below is where graphs showing different stats about Entry Level jobs that require a certain number of years experience</p>
-
-
-            </div>
-    </div>
+        </div>
   );
 }
 
-export default Stats;
+export default App;
