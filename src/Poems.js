@@ -11,6 +11,9 @@ function Poems() {
     const joyce = {
         AFlowerGivenToMyDaughter: "<p>Frail the white rose and frail are,<br/>Her hands that gave<br/>Whose soul is sere and paler<br/>Than time's wan wave.<br/><br/>Rosefrail and fair -- yet frailest<br/>A wonder wild<br/>In gentle eyes thou veilest,<br/>My blueveined child.</p>"
     };
+    const rose_of_scotland = {
+      "<p>The rose of all the world is not for me.<br>I want for my part<br>Only the little white rose of Scotland<br>That smells sharp and sweet -- and breaks the heart."
+    };
     const alist = [yeats, joyce];
 
 
