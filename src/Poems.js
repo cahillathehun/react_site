@@ -15,10 +15,7 @@ function Poems() {
     const macdiarmid = {
       LittleWhiteRose: "<p>The rose of all the world is not for me.<br>I want for my part<br>Only the little white rose of Scotland<br>That smells sharp and sweet -- and breaks the heart.</p>"
     };
-    const lake_isle = {
-
-    };
-    const alist = [yeats, joyce, rose_of_scotland];
+    const alist = [yeats, joyce, macdiarmid];
 
 
     const randP = () => {
