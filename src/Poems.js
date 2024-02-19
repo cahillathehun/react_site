@@ -12,9 +12,12 @@ function Poems() {
         AFlowerGivenToMyDaughter: "<p>Frail the white rose and frail are,<br/>Her hands that gave<br/>Whose soul is sere and paler<br/>Than time's wan wave.<br/><br/>Rosefrail and fair -- yet frailest<br/>A wonder wild<br/>In gentle eyes thou veilest,<br/>My blueveined child.</p>"
     };
     const rose_of_scotland = {
-      "<p>The rose of all the world is not for me.<br>I want for my part<br>Only the little white rose of Scotland<br>That smells sharp and sweet -- and breaks the heart."
+      "<p>The rose of all the world is not for me.<br>I want for my part<br>Only the little white rose of Scotland<br>That smells sharp and sweet -- and breaks the heart.</p>"
     };
-    const alist = [yeats, joyce];
+    const lake_isle = {
+      "<p>I will arise and go now, and go to Innisfree,<br>And a small cabin build there, of clay and wattles made;<br>Nine bean-rows will I have there, a hive for the honey-bee,<br>And live alone in the bee-loud glade.<br><br>And I shall have some peace there, for peace comes dropping slow,<br>Dropping from the veils of the morning to where the cricket sings;<br>There midnight’s all a glimmer, and noon a purple glow,<br>And evening full of the linnet’s wings.<br><br>I will arise and go now, for always night and day<br>I hear lake water lapping with low sounds by the shore;<br>While I stand on the roadway, or on the pavements grey,<br>I hear it in the deep heart’s core.<br><br><br></p>"
+    };
+    const alist = [yeats, joyce, rose_of_scotland];
 
 
     const randP = () => {
